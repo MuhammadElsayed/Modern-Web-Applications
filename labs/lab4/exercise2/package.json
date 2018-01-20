@@ -1,0 +1,14 @@
+{
+  "name": "exercise2",
+  "version": "1.0.0",
+  "description": "solution for problem#2 of lab#4",
+  "main": "Exercise2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mselem",
+  "license": "ISC",
+  "dependencies": {
+    "@reactivex/rxjs": "^5.5.6"
+  }
+}
