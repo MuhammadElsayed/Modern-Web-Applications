@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+    <br> App Component
+  </h1>
+  <input [value]="componentCounterValue" #counterInput (keyup.enter)="setCounter(counterInput.value)">
+  <button (click)="setCounter(counterInput.value)">Set Value</button>
+  <button (click)="setCounter(counterInput.value=0)">Reset Value</button>
+
+  <app-counter [counterValue]="componentCounterValue" (counterChange)="updateCounterFromChild($event)"></app-counter>
+
+</div>
